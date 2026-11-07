@@ -1,0 +1,60 @@
+variable,source_or_construction,stata_variable_label,missing_n
+record_id,Sequential generated number; not a source respondent ID,,0
+earn_annual_hours,"Original HIES-derived field, after Step 1.7 structural recoding where applicable","Total annual work hours, person-level",0
+low_work_intensity,"1 if annual working hours <= 1440, else 0",,0
+population_weight,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Population survey weight,0
+stratum16,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Survey stratum,0
+psu_public,New cluster ID mapped consistently to 720-unit survey frame,,0
+marital_status,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Marital status,0
+relation_head,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Relationship to household head,0
+literate_basic,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Can both read and write,0
+has_mobile,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Has mobile phone,0
+has_bank_account,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Has bank/deposit/current/loan account,0
+has_mfs_account,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Has mobile financial service account,0
+internet_used,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Used internet in last 3 months,0
+has_computer,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Household owns computer/laptop/tablet,0
+any_functional_difficulty,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Any functional difficulty,0
+rural_urban,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Rural/urban from weight file,0
+division_code,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Division code,0
+rmo_code,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",RMO / Rural-urban code from HH_SEC_1A,0
+domain16,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Survey domain,0
+toilet_type,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Main toilet facility type,0
+drinking_water_source,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Main drinking water source,0
+light_source,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Main light source in house,0
+cooking_stove_type,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Main cooking stove type,0
+cooking_fuel,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Main cooking fuel or energy,0
+transport_stop_halfkm,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Transport stop within half kilometer,0
+regular_waste_collection,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Regular waste collection,0
+slum_household,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Slum household,0
+earn_sector,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Main economic sector,0
+earn_emp_status_ag,"Original HIES-derived field, after Step 1.7 structural recoding where applicable","Employment status, agriculture",0
+earn_emp_status_nonag,"Original HIES-derived field, after Step 1.7 structural recoding where applicable","Employment status, non-agriculture",0
+earn_org_type,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Type of organization,0
+earn_ind_code,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Main industry code,0
+earn_occ_code,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Main occupation code,0
+education_attainment_group,Questionnaire code grouped according to TTT(7).py Step 1.11,,0
+transport_stop_time_min_missing,From 0/1 missing status of transport_stop_time_min,,0
+age,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Age in completed years,0
+hh_MEMBER,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Total household member,0
+fies_raw_score,"Original HIES-derived field, after Step 1.7 structural recoding where applicable","Raw FIES score, 0-8, valid only when all 8 items observed",25
+electricity_hours_24h,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Electricity hours in normal 24 hours,44
+transport_stop_time_min,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Minutes to nearest transport stop,833
+hh_rooms,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Number of rooms occupied by household,0
+covered_area,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Covered room area,0
+house_value,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Estimated cost to buy/build current house,0
+land_property_value,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Estimated value of owned land/property,10
+other_asset_value,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Value of other assets,10
+sec9a1_food_value,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Section 9A1 total food item value,3
+sec9b2_value_total,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Section 9B2 total item value,8
+sec9c_total_value,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Section 9C total consumed goods value,12
+sec9d1_value_total,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Section 9D1 total annual item value,16
+sec9d2_value_total,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Section 9D2 total annual item value,65
+durable_owned_count,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Number of durable asset types owned,7
+durable_total_number,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Total number of durable items owned,7
+durable_total_value,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Total current value of durable assets,7
+sec9_total_observed_value,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Raw combined Section 9 observed value,1
+hh_rooms_pca,hh_rooms with extreme 83 treated as missing for PCA only,,1
+ever_attended_education,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Ever attended education,0
+owns_land_property_nonoperated,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Owns land/property not operated,10
+owns_other_assets,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Owns other financial/physical assets,10
+highest_class_completed,"Original HIES-derived field, after Step 1.7 structural recoding where applicable",Highest class completed,0

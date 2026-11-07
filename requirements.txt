@@ -1,0 +1,16 @@
+# Core analysis dependencies
+numpy
+pandas
+scipy
+scikit-learn==1.5.2
+Boruta
+shap>=0.50,<0.51
+matplotlib
+Pillow
+tifffile
+
+# The scripts record installed package versions in the Step 1.26 package audit.
+# Optional packages checked by the audit but not required by the six-model pipeline:
+# xgboost
+# lightgbm
+# imbalanced-learn

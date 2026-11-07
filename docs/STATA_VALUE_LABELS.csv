@@ -1,0 +1,359 @@
+﻿variable_name,display_label
+_m_lfs,Master only (1)
+_m_lfs,Matched (3)
+_m_eduA,Master only (1)
+_m_eduA,Matched (3)
+_m_eduB,Master only (1)
+_m_eduB,Matched (3)
+_m_disability,Matched (3)
+_m_hh_geo,Matched (3)
+_m_weight,Matched (3)
+r_S1AQ01,Male
+r_S1AQ01,Female
+r_S1AQ02,The head of the house
+r_S1AQ02,Spouse
+r_S1AQ02,Son / daughter
+r_S1AQ02,Daughter-in-law / son-in-law
+r_S1AQ02,Granddaughter
+r_S1AQ02,Father / mother
+r_S1AQ02,Brother / sister
+r_S1AQ02,Nephew / niece
+r_S1AQ02,Father-in-law/Mother-in-law
+r_S1AQ02,Brother-in-law / sister-in-law
+r_S1AQ02,Other relatives (specify)
+r_S1AQ02,Housemaid / Housemaid
+r_S1AQ02,Employee
+r_S1AQ02,Other (specify)
+r_S1AQ04,ISLAM
+r_S1AQ04,HINDU
+r_S1AQ04,BUDDHIST
+r_S1AQ04,CHRISTIAN
+r_S1AQ05,Currently married
+r_S1AQ05,Never married
+r_S1AQ05,Widowed
+r_S1AQ05,Divorced
+r_S1AQ05,Separated
+r_S1AQ07,Yes
+r_S1AQ07,No
+r_S1AQ08,Yes
+r_S1AQ08,No
+r_S1AQ09,Lose job
+r_S1AQ09,Due to illness
+r_S1AQ09,End of employment
+r_S1AQ09,Disagreement with authorities
+r_S1AQ09,Homesick
+r_S1AQ09,Due to economic recession
+r_S1AQ09,Other (specify)
+r_S1AQ10,Yes
+r_S1AQ10,No
+r_S1AQ11,Communicating
+r_S1AQ11,Getting information related to work
+r_S1AQ11,Transferring money
+r_S1AQ11,Accessing to the internet
+r_S1AQ11,Other
+r_S1AQ12,Yes
+r_S1AQ12,No
+r_S1AQ13,Yes
+r_S1AQ13,No
+r_S1AQ14,Yes
+r_S1AQ14,No
+r_S1AQ15,Mobile phone
+r_S1AQ15,By own computer
+r_S1AQ15,Cybercafe
+r_S1AQ15,Others
+lf_S1BQ01,Yes
+lf_S1BQ01,No
+lf_S1BQ02,Yes
+lf_S1BQ02,No
+lf_S1BQ03,Yes
+lf_S1BQ03,No
+lf_S1BQ04,Yes
+lf_S1BQ04,No
+lf_S1BQ05,Yes
+lf_S1BQ05,No
+lf_S1BQ06,Yes
+lf_S1BQ06,No
+lf_S1BQ07,To join the work
+lf_S1BQ07,No job
+lf_S1BQ07,Recession season
+lf_S1BQ07,Waiting to set up own business
+lf_S1BQ07,Sick / Injured / Disabled
+lf_S1BQ07,In educational institutions / training
+lf_S1BQ07,Personal / Family Responsibilities
+lf_S1BQ07,To start studying
+lf_S1BQ07,Dissatisfaction at work
+lf_S1BQ07,Retired
+lf_S1BQ07,Reluctant to work
+lf_S1BQ07,Under aged
+lf_S1BQ07,Other (specify)
+lf_S1BQ08,Yes
+lf_S1BQ08,No
+lf_S1BQ09,In educational institutions / training
+lf_S1BQ09,Family responsibilities
+lf_S1BQ09,Sick / Injured / Disabled
+lf_S1BQ09,Too old / retired for work
+lf_S1BQ09,Under aged
+lf_S1BQ09,Recession season
+lf_S1BQ09,Not willing to work
+lf_S1BQ09,Other (specify
+hh_domain16,Barisal Rural
+hh_domain16,Barisal Urban
+hh_domain16,Chattogram Rural
+hh_domain16,Chattogram Urban
+hh_domain16,Dhaka Rural
+hh_domain16,Dhaka Urban
+hh_domain16,Khulna Rural
+hh_domain16,Khulna Urban
+hh_domain16,Mymensingh Rural
+hh_domain16,Mymensingh Urban
+hh_domain16,Rajshahi Rural
+hh_domain16,Rajshahi Urban
+hh_domain16,Rangpur Rural
+hh_domain16,Rangpur Urban
+hh_domain16,Sylhet Rural
+hh_domain16,Sylhet Urban
+hh_urbrural,Rural
+hh_urbrural,Urban
+wt_stratum16,Barisal Rural
+wt_stratum16,Barisal Urban
+wt_stratum16,Chattogram Rural
+wt_stratum16,Chattogram Urban
+wt_stratum16,Chattogram CC
+wt_stratum16,Dhaka Rural
+wt_stratum16,Dhaka Urban
+wt_stratum16,Dhaka CC
+wt_stratum16,Khulna Rural
+wt_stratum16,Khulna Urban
+wt_stratum16,Khulna CC
+wt_stratum16,Rajshahi Rural
+wt_stratum16,Rajshahi Urban
+wt_stratum16,Rajshahi CC
+wt_stratum16,Sylhet Rural
+wt_stratum16,Sylhet Urban
+wt_domain16,Barisal Rural
+wt_domain16,Barisal Urban
+wt_domain16,Chattogram Rural
+wt_domain16,Chattogram Urban
+wt_domain16,Dhaka Rural
+wt_domain16,Dhaka Urban
+wt_domain16,Khulna Rural
+wt_domain16,Khulna Urban
+wt_domain16,Mymensingh Rural
+wt_domain16,Mymensingh Urban
+wt_domain16,Rajshahi Rural
+wt_domain16,Rajshahi Urban
+wt_domain16,Rangpur Rural
+wt_domain16,Rangpur Urban
+wt_domain16,Sylhet Rural
+wt_domain16,Sylhet Urban
+_m_earnings,Master only (1)
+_m_earnings,Matched (3)
+Q10_1,Yes
+Q10_1,No
+Q10_1,Don't know
+Q10_1,Refused
+Q10_2,Yes
+Q10_2,No
+Q10_2,Don't know
+Q10_2,Refused
+Q10_3,Yes
+Q10_3,No
+Q10_3,Don't know
+Q10_3,Refused
+Q10_4,Yes
+Q10_4,No
+Q10_4,Don't know
+Q10_4,Refused
+Q10_5,Yes
+Q10_5,No
+Q10_5,Don't know
+Q10_5,Refused
+Q10_6,Yes
+Q10_6,No
+Q10_6,Don't know
+Q10_6,Refused
+Q10_7,Yes
+Q10_7,No
+Q10_7,Don't know
+Q10_7,Refused
+Q10_8,Yes
+Q10_8,No
+Q10_8,Don't know
+Q10_8,Refused
+_m_fies,Master only (1)
+_m_fies,Matched (3)
+h6A_S6AQ03,Yes
+h6A_S6AQ03,No
+h6A_S6AQ04,Straw/Bamboo/ Polythene/Plastic/ Canvas
+h6A_S6AQ04,Mud/Unburnt brick
+h6A_S6AQ04,Tin (CI sheet)
+h6A_S6AQ04,Wood
+h6A_S6AQ04,Brick/Cement
+h6A_S6AQ04,Other (specify)
+h6A_S6AQ05,Straw/Bamboo/ Polythene/Plastic/ Canvas
+h6A_S6AQ05,Tin (CI sheet)
+h6A_S6AQ05,Tally
+h6A_S6AQ05,Brick/Cement
+h6A_S6AQ05,Other (specify)
+h6A_S6AQ07,Flash removal through the pipe to the sewer system
+h6A_S6AQ07,Flash and hold in safe tank
+h6A_S6AQ07,Flash and hold in safe pit (pit latrine)
+h6A_S6AQ07,Flash removal to open drain
+h6A_S6AQ07,I don't know where it is removed by flash
+h6A_S6AQ07,Ventilated Improved Pit (VIP) latrine
+h6A_S6AQ07,Pet latrine with slab
+h6A_S6AQ07,Slabless pit latrine / open pit
+h6A_S6AQ07,Composting toilet
+h6A_S6AQ07,Bucket
+h6A_S6AQ07,Open / hanging latrine
+h6A_S6AQ07,No latrine / bush / field
+h6A_S6AQ07,Other (specify)
+h6A_S6AQ08,Yes
+h6A_S6AQ08,No
+h6A_S6AQ09,Pipes in the house
+h6A_S6AQ09,Pipes in the yard
+h6A_S6AQ09,Pipes in the neighbor's house
+h6A_S6AQ09,Government tap / permanent pipe
+h6A_S6AQ09,Tubewell
+h6A_S6AQ09,Protected Well / Idara
+h6A_S6AQ09,Unprotected wells / idara
+h6A_S6AQ09,Safe shower
+h6A_S6AQ09,Collected rainwater
+h6A_S6AQ09,Tanker-truck
+h6A_S6AQ09,Small tank or drum car
+h6A_S6AQ09,Water Kisk Plant
+h6A_S6AQ09,"Surface water (rivers, lakes, dams, ponds, canals, irrigation canals)"
+h6A_S6AQ09,Bottled water
+h6A_S6AQ09,Other (specify
+h6A_S6AQ10,Yes
+h6A_S6AQ10,No
+h6A_S6AQ11,Yes
+h6A_S6AQ11,No
+h6A_S6AQ12,Supply
+h6A_S6AQ12,Arsenic Tube Well
+h6A_S6AQ12, Arsenic Free Tube Well
+h6A_S6AQ12,Idara / well
+h6A_S6AQ12,Other (specify)
+h6A_S6AQ13,Pipes in the house
+h6A_S6AQ13,Pipes in the yard
+h6A_S6AQ13,Pipes in the neighbor's house
+h6A_S6AQ13,Government tap / permanent pipe
+h6A_S6AQ13,Tubewell
+h6A_S6AQ13,Protected Well / Idara
+h6A_S6AQ13,Unprotected wells / idara
+h6A_S6AQ13,Safe shower
+h6A_S6AQ13,Unprotected shower
+h6A_S6AQ13,Collected rainwater
+h6A_S6AQ13,Tanker-truck
+h6A_S6AQ13,Small tank or drum car
+h6A_S6AQ13,Water Kisk Plant
+h6A_S6AQ13,"Surface water (rivers, lakes, dams, ponds, canals, irrigation canals)"
+h6A_S6AQ13,Bottled water
+h6A_S6AQ13,Other (specify)
+h6A_S6AQ15,Hand washing system (basin / tap / tubewell) observed: indoors
+h6A_S6AQ15,The prescribed hand washing system (basin / tap / tubewell) has been observed: i
+h6A_S6AQ15,The prescribed hand washing system (basin / tap / tubewell) has been observed: A
+h6A_S6AQ15,"Not seen: There is no place to wash hands inside the house, in the yard or on th"
+h6A_S6AQ15,Not seen: Not allowed to view
+h6A_S6AQ15,Not seen: Other reasons (specify)
+h6A_S6AQ16,Yes
+h6A_S6AQ16,No
+h6A_S6AQ17,Seen: soap or liquid soap or ball soap
+h6A_S6AQ17,Viewed: Detergent (powder / liquid / paste)
+h6A_S6AQ17,Seen: ash / soil / sand
+h6A_S6AQ17,Not seen
+h6A_S6AQ18,Electricity
+h6A_S6AQ18,Solar Powered Lantern
+h6A_S6AQ18,"Rechargeable flashlight, torch or lantern"
+h6A_S6AQ18,"Battery-powered flashlight, torch or lantern"
+h6A_S6AQ18,Biogas lamp
+h6A_S6AQ18,Kerosene or paraffin lamp
+h6A_S6AQ18,Oil lamp
+h6A_S6AQ18,Candles
+h6A_S6AQ18,There is no light in the room
+h6A_S6AQ18,Other (specify)
+h6A_S6AQ20,Electric stove
+h6A_S6AQ20,Liquid natural gas (LPG) / Cooking gas stove
+h6A_S6AQ20,Natural gas stove
+h6A_S6AQ20,Biogas stove
+h6A_S6AQ20,Liquid Fuel Stove (Oil Stove)
+h6A_S6AQ20,Traditional solid fuel (wood) stove
+h6A_S6AQ20,Three stone or brick stoves / open stoves
+h6A_S6AQ20,No food is cooked in the house
+h6A_S6AQ20,Other (specify)
+h6A_S6AQ21,Yes
+h6A_S6AQ21,No
+h6A_S6AQ21,Don't know
+h6A_S6AQ22,Yes
+h6A_S6AQ22,No
+h6A_S6AQ22,Don't know
+h6A_S6AQ23,Natural gas
+h6A_S6AQ23,LPG/Silinder Gas
+h6A_S6AQ23,Gasoline / Diesel
+h6A_S6AQ23,Kerosene / paraffin
+h6A_S6AQ23,Wood coal
+h6A_S6AQ23,Wood
+h6A_S6AQ23,High of husk / straw / dry grass / stubble / wheat / maize
+h6A_S6AQ23,Dung / animal waste
+h6A_S6AQ23,Garbage / Plastic
+h6A_S6AQ23,Wood bran
+h6A_S6AQ23,Electricity
+h6A_S6AQ23,Other (specify)
+h6A_S6AQ24,There is no separate room
+h6A_S6AQ24,In a separate room
+h6A_S6AQ24,In a separate building / room
+h6A_S6AQ24,Under the open sky
+h6A_S6AQ24,Porch or enclosed courtyard
+h6A_S6AQ24,Other (specify)
+h6A_S6AQ25,Yes
+h6A_S6AQ25,No
+h6A_S6AQ25,Don't know
+h6A_S6AQ26,Yes
+h6A_S6AQ26,No
+h6A_S6AQ27,Yes
+h6A_S6AQ27,No
+h6A_S6AQ28,Owner
+h6A_S6AQ28,Tenant
+h6A_S6AQ28,Without rent
+h6A_S6AQ30,Yes
+h6A_S6AQ30,No
+h6A_S6AQ31,Yes
+h6A_S6AQ31,No
+h6A_S6AQ32,Yes
+h6A_S6AQ32,No
+h6A_S6AQ34,Yes
+h6A_S6AQ34,No
+h6A_S6AQ35,Yes
+h6A_S6AQ35,No
+h6A_S6AQ36,Yes
+h6A_S6AQ36,No
+h6A_S6AQ36,In any other unprotected / open space
+_m_housing,Matched (3)
+asset_S8AQ01A,Yes
+asset_S8AQ01A,No
+asset_S8AQ03,Yes
+asset_S8AQ03,No
+asset_S8AQ05,Yes
+asset_S8AQ05,No
+asset_S8AQ07,Yes
+asset_S8AQ07,No
+asset_S8AQ09,Yes
+asset_S8AQ09,No
+asset_S8AQ11,Yes
+asset_S8AQ11,No
+_m_assets,Master only (1)
+_m_assets,Matched (3)
+_m_sec9b2,Master only (1)
+_m_sec9b2,Matched (3)
+_m_sec9c,Master only (1)
+_m_sec9c,Using only (2)
+_m_sec9c,Matched (3)
+_m_sec9d1,Master only (1)
+_m_sec9d1,Matched (3)
+_m_sec9d2,Master only (1)
+_m_sec9d2,Matched (3)
+_m_sec9e,Master only (1)
+_m_sec9e,Using only (2)
+_m_sec9e,Matched (3)
+_m_sec9,Master only (1)
+_m_sec9,Matched (3)

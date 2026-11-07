@@ -1,0 +1,13 @@
+{
+  "merged_rows": 62407,
+  "merged_variables": 324,
+  "analytical_rows": 2110,
+  "analytical_variables": 59,
+  "outcome_cases": 553,
+  "annual_hours_p25": 1440.0,
+  "survey_psus": 720,
+  "survey_strata": 16,
+  "analytical_psus": 589,
+  "sha256_data": "b14fb8d84ec6a8f797453c80d0eafd26eeed3032ecf2e405a778927042679563",
+  "sha256_psu": "9bd1dd0a3cc2df656441403f7e5aabb7cbd96d5c0bb36e3796d2ee0317b3e209"
+}

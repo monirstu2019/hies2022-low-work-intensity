@@ -1,0 +1,40 @@
+﻿Domain,Variable / code,Type,Coding/values used,Analytical role
+Analytical sample,sample_earnings_women_15plus,Sample filter,1 = included,Used only to restrict the sample
+Outcome,low_work_intensity,Binary,0 = Not low; 1 = Low,Main dependent variable
+Outcome construction,earn_annual_hours,Continuous,"Cut-off = 1,440 hours",Used to construct outcome; excluded from ML predictors
+Survey design,population_weight,Survey sampling weight,Positive HIES population sampling weights; normalized to mean 1 within each training fold for model fitting,"Used for Boruta selection, classifier fitting and weighted performance evaluation; excluded from predictors"
+Demographic,age,Continuous,Years,Predictor
+Demographic,marital_status,Categorical,"Currently married, never married, widowed, divorced, separated",Predictor and descriptive variable
+Demographic,relation_head_grp,Grouped categorical,Original HIES relationship categories; infrequent categories grouped within training folds,Predictor
+Education,literate_basic,Binary,0 = No; 1 = Yes,Predictor and descriptive variable
+Education,education_attainment_group,Categorical (derived from highest_class_completed),Eight groups: No class completed; Primary (1–5); Lower secondary (6–9); SSC or equivalent; HSC or equivalent; Vocational/technical; Tertiary/professional; Other specified,Predictor
+Digital/financial access,has_mobile,Binary,0 = No; 1 = Yes,Predictor
+Digital/financial access,has_bank_account,Binary,0 = No; 1 = Yes,Predictor and descriptive variable
+Digital/financial access,has_mfs_account,Binary,0 = No; 1 = Yes,Predictor and descriptive variable
+Digital/financial access,internet_used,Binary,0 = No; 1 = Yes,Predictor and descriptive variable
+Digital/financial access,has_computer,Binary,0 = No; 1 = Yes,Predictor
+Functional limitation,any_functional_difficulty,Binary,0 = No; 1 = Yes,Predictor and descriptive variable
+Geography,rural_urban,Categorical,1 = Rural; 2 = Urban,Predictor and descriptive variable
+Geography,division_code,Categorical,"Barishal, Chattogram, Dhaka, Khulna, Mymensingh, Rajshahi, Rangpur, Sylhet",Predictor and descriptive variable
+Geography,rmo_code,Categorical,HIES rural/municipality code,Predictor
+Geography,domain16_grp,Categorical,16 survey domains defined by division × rural/urban residence; infrequent categories grouped within each training fold (minimum frequency 15).,Predictor
+Household,hh_MEMBER,Continuous,Number of household members,Predictor
+Food security,fies_raw_score,Continuous,Raw FIES score,Predictor
+Wealth/living standard,wealth_living_index,Continuous,PCA score,Predictor
+Housing/infrastructure,toilet_type_grp,Grouped categorical,Original HIES toilet-type categories; categories with fewer than 15 training observations grouped within each training fold.,Predictor
+Housing/infrastructure,drinking_water_source_grp,Grouped categorical,Original HIES drinking-water source categories; categories with fewer than 15 training observations grouped within each training fold.,Predictor
+Housing/infrastructure,light_source,Categorical,HIES lighting-source codes,Predictor
+Housing/infrastructure,cooking_stove_type,Categorical,HIES cooking-stove codes,Predictor
+Housing/infrastructure,cooking_fuel_grp,Grouped categorical,Original HIES cooking-fuel categories; categories with fewer than 15 training observations grouped within each training fold.,Predictor
+Housing/infrastructure,electricity_hours_24h,Continuous,Hours in last 24 hours,Predictor
+Housing/infrastructure,transport_stop_halfkm,Categorical,-99 = missing/not applicable; HIES codes retained,Predictor
+Housing/infrastructure,transport_stop_time_min,Continuous,Minutes,Predictor
+Housing/infrastructure,transport_stop_time_min_missing,Binary,0 = observed; 1 = missing,Missingness indicator
+Housing/infrastructure,regular_waste_collection,Binary,0 = No; 1 = Yes,Predictor
+Housing/infrastructure,slum_household,Binary,0 = No; 1 = Yes,Predictor
+Employment structure,earn_sector,Categorical,1 = Agriculture; 2 = Non-agriculture,Predictor and descriptive variable
+Employment structure,earn_emp_status_ag,Categorical,-99 = missing/not applicable; HIES codes retained,Predictor
+Employment structure,earn_emp_status_nonag,Categorical,-99 = missing/not applicable; HIES codes retained,Predictor and descriptive variable
+Employment structure,earn_org_type_grp,Grouped categorical,−99 = missing/not applicable; original HIES organization/workplace categories; categories with fewer than 15 training observations grouped within each training fold.,Predictor
+Employment structure,earn_ind_code_grp,Grouped categorical,Original HIES industry codes; categories with fewer than 15 training observations grouped within each training fold.,Predictor
+Employment structure,earn_occ_code_grp,Grouped categorical,Original HIES occupation codes; categories with fewer than 15 training observations grouped within each training fold.,Predictor

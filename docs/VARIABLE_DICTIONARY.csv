@@ -1,0 +1,325 @@
+﻿variable_name,stata_variable_label,storage_dtype,nonmissing_n,missing_n,sharing_note
+psu,Primary Sampling Unit Serial Number,float64,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hhid,Household Identification,float64,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+pid,ID CODE,int8,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+female,"Female person: 1=female, 0=male",int8,62407,0,Analytical or derived field; source-data terms still apply
+age,Age in completed years,int8,62407,0,Analytical or derived field; source-data terms still apply
+age_5plus,Age 5 years and above,int8,62407,0,Analytical or derived field; source-data terms still apply
+age_15plus,Age 15 years and above,int8,62407,0,Analytical or derived field; source-data terms still apply
+age_15_64,Age 15-64 years,int8,62407,0,Analytical or derived field; source-data terms still apply
+division_code,Division code,int8,62407,0,Survey/geographic design or location field; assess disclosure risk before release
+district_code,District code,int8,62407,0,Survey/geographic design or location field; assess disclosure risk before release
+rmo_code,RMO / Rural-urban code from HH_SEC_1A,int8,62407,0,Survey/geographic design or location field; assess disclosure risk before release
+rural_urban,Rural/urban from weight file,int8,62407,0,Analytical or derived field; source-data terms still apply
+stratum16,Survey stratum,int8,62407,0,Survey/geographic design or location field; assess disclosure risk before release
+domain16,Survey domain,int8,62407,0,Survey/geographic design or location field; assess disclosure risk before release
+household_weight,Household survey weight,float32,62407,0,Analytical or derived field; source-data terms still apply
+population_weight,Population survey weight,float32,62407,0,Analytical or derived field; source-data terms still apply
+relation_head,Relationship to household head,int8,62407,0,Analytical or derived field; source-data terms still apply
+marital_status,Marital status,float64,50956,11451,Analytical or derived field; source-data terms still apply
+earner,Earner status,float64,56631,5776,Analytical or derived field; source-data terms still apply
+has_mobile,Has mobile phone,int8,62407,0,Analytical or derived field; source-data terms still apply
+has_bank_account,Has bank/deposit/current/loan account,int8,62407,0,Analytical or derived field; source-data terms still apply
+has_mfs_account,Has mobile financial service account,int8,62407,0,Analytical or derived field; source-data terms still apply
+internet_used,Used internet in last 3 months,float64,56631,5776,Analytical or derived field; source-data terms still apply
+worked_livelihood_7d,Worked for livelihood during past 7 days,float64,56614,5793,Analytical or derived field; source-data terms still apply
+available_work_7d,Available for work during past 7 days,float64,38037,24370,Analytical or derived field; source-data terms still apply
+looking_work_7d,Looked for work during past 7 days,float64,56614,5793,Analytical or derived field; source-data terms still apply
+ready_work_7d,Ready to join work if opportunity in past 7 days,float64,43653,18754,Analytical or derived field; source-data terms still apply
+looking_work_30d,Looked for work during past 30 days,float64,30367,32040,Analytical or derived field; source-data terms still apply
+ready_work_30d,Ready to join work if opportunity in past 30 days,float64,30367,32040,Analytical or derived field; source-data terms still apply
+lfp_broad,"Broad LFP: worked, available, or looked for work",float64,56614,5793,Analytical or derived field; source-data terms still apply
+lfp_strict,Strict LFP: worked or searched and ready,float64,48944,13463,Analytical or derived field; source-data terms still apply
+labour_force_participation,LFP: worked or searched and ready,float64,48944,13463,Analytical or derived field; source-data terms still apply
+literate_basic,Can both read and write,float64,56583,5824,Analytical or derived field; source-data terms still apply
+can_read_letter,Can read a letter,float64,56583,5824,Analytical or derived field; source-data terms still apply
+can_write_letter,Can write a letter,float64,56583,5824,Analytical or derived field; source-data terms still apply
+ever_attended_education,Ever attended education,float64,56583,5824,Analytical or derived field; source-data terms still apply
+highest_class_completed,Highest class completed,float64,44965,17442,Analytical or derived field; source-data terms still apply
+currently_attending_school,Currently attending school/educational institution,float64,56538,5869,Analytical or derived field; source-data terms still apply
+current_class,Current class attending,float64,16337,46070,Analytical or derived field; source-data terms still apply
+receives_scholarship_stipend,Receives scholarship/stipend,float64,16337,46070,Analytical or derived field; source-data terms still apply
+any_functional_difficulty,Any functional difficulty,int8,62407,0,Analytical or derived field; source-data terms still apply
+severe_functional_difficulty,Severe or complete functional difficulty,int8,62407,0,Analytical or derived field; source-data terms still apply
+_m_lfs,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+_m_eduA,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+_m_eduB,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+_m_disability,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+_m_hh_geo,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+_m_weight,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_TERM,,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ0A,Respondent ID Code,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ01,Sex,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ02,Relationship of members with the head of household,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ03,Age,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ04,Religion,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ05,Marital status,float64,50956,11451,Analytical or derived field; source-data terms still apply
+r_S1AQ06,Age at first marriage (if ever married),float64,35388,27019,Analytical or derived field; source-data terms still apply
+r_S1AQ07,Earner,float64,56631,5776,Analytical or derived field; source-data terms still apply
+r_S1AQ08,Whether (name) was abroad for more than 5 years,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ09,Why did (name) return to the household from abroad,float64,400,62007,Analytical or derived field; source-data terms still apply
+r_S1AQ10,Whether name has a mobile,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ11,Main use of the mobile,float64,32807,29600,Analytical or derived field; source-data terms still apply
+r_S1AQ12,Do you have any Active Deposit Account / Current Account / Loan Account at Bank ,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ13,Do you have any account in different mobile financial services like bKash / cash,int8,62407,0,Analytical or derived field; source-data terms still apply
+r_S1AQ14,"Have you used the Internet (such as Zoom, Facebook, YouTube, Email, Viber, Emu, ",float64,56631,5776,Analytical or derived field; source-data terms still apply
+r_S1AQ15,How do you mainly use the internet?,float64,20555,41852,Analytical or derived field; source-data terms still apply
+lf_TERM,,float64,56614,5793,Analytical or derived field; source-data terms still apply
+lf_S1BQ01,Did you work for livelihood during the past 7 days?,float64,56614,5793,Analytical or derived field; source-data terms still apply
+lf_S1BQ02,Were you available for work during the past 7 days?,float64,38037,24370,Analytical or derived field; source-data terms still apply
+lf_S1BQ03,Did you looking for work during the past 7 days?,float64,56614,5793,Analytical or derived field; source-data terms still apply
+lf_S1BQ04,"[Name] If you had a job opportunity in the last 7 (seven) days, were you ready t",float64,43653,18754,Analytical or derived field; source-data terms still apply
+lf_S1BQ05,Did you looking for work during the past 30 days?,float64,30367,32040,Analytical or derived field; source-data terms still apply
+lf_S1BQ06,"If you had a job in the last 30 (thirty) days, were you ready to join that job?",float64,30367,32040,Analytical or derived field; source-data terms still apply
+lf_S1BQ07,Last 30 days Why were you not available/ did you not looking for work?,float64,29859,32548,Analytical or derived field; source-data terms still apply
+lf_S1BQ08,"[Name] If you had a job opportunity in the last 7 (seven) days, were you ready t",float64,30367,32040,Analytical or derived field; source-data terms still apply
+lf_S1BQ09,[Name] Why weren't you ready to work for a living at that time?,float64,29152,33255,Analytical or derived field; source-data terms still apply
+reason_not_working_or_looking,Reason not available / not looking for work,float64,29859,32548,Analytical or derived field; source-data terms still apply
+reason_not_ready_to_work,Reason not ready to work,float64,29152,33255,Analytical or derived field; source-data terms still apply
+unemployed_search_ready,Looked for work in 30 days and ready,float64,30367,32040,Analytical or derived field; source-data terms still apply
+search_ready_7d,,float64,43653,18754,Analytical or derived field; source-data terms still apply
+search_ready_30d,,float64,30367,32040,Analytical or derived field; source-data terms still apply
+edA_TERM,(firstnm) edA_TERM,float64,56583,5824,Analytical or derived field; source-data terms still apply
+edA_S2AQ0A,(firstnm) edA_S2AQ0A,float64,56548,5859,Analytical or derived field; source-data terms still apply
+edA_S2AQ01,(firstnm) edA_S2AQ01,float64,56583,5824,Analytical or derived field; source-data terms still apply
+edA_S2AQ02,(firstnm) edA_S2AQ02,float64,56583,5824,Analytical or derived field; source-data terms still apply
+edA_S2AQ03,(firstnm) edA_S2AQ03,float64,56583,5824,Analytical or derived field; source-data terms still apply
+edA_S2AQ04,(firstnm) edA_S2AQ04,float64,44965,17442,Analytical or derived field; source-data terms still apply
+edA_S2AQ05,(firstnm) edA_S2AQ05,float64,9718,52689,Analytical or derived field; source-data terms still apply
+edA_S2AQ06,(firstnm) edA_S2AQ06,float64,9714,52693,Analytical or derived field; source-data terms still apply
+edA_S2AQ07,(firstnm) edA_S2AQ07,float64,736,61671,Analytical or derived field; source-data terms still apply
+edA_S2AQ08,(firstnm) edA_S2AQ08,float64,9621,52786,Analytical or derived field; source-data terms still apply
+edA_S2AQ09,(firstnm) edA_S2AQ09,float64,44965,17442,Analytical or derived field; source-data terms still apply
+edA_S2AQ10,(firstnm) edA_S2AQ10,float64,44637,17770,Analytical or derived field; source-data terms still apply
+edA_S2AQ11,(firstnm) edA_S2AQ11,float64,44635,17772,Analytical or derived field; source-data terms still apply
+edA_S2AQ12,(firstnm) edA_S2AQ12,float64,44637,17770,Analytical or derived field; source-data terms still apply
+edA_S2AQ13,(firstnm) edA_S2AQ13,float64,56568,5839,Analytical or derived field; source-data terms still apply
+edA_S2AQ14A,(firstnm) edA_S2AQ14A,float64,20317,42090,Analytical or derived field; source-data terms still apply
+edA_S2AQ14B,(firstnm) edA_S2AQ14B,float64,24414,37993,Analytical or derived field; source-data terms still apply
+edA_S2AQ14C,(firstnm) edA_S2AQ14C,float64,58,62349,Analytical or derived field; source-data terms still apply
+edA_S2AQ15,(firstnm) edA_S2AQ15,float64,34900,27507,Analytical or derived field; source-data terms still apply
+edA_S2AQ16,(firstnm) edA_S2AQ16,float64,32169,30238,Analytical or derived field; source-data terms still apply
+edA_S2AQ17,(firstnm) edA_S2AQ17,float64,0,62407,Analytical or derived field; source-data terms still apply
+education_place,Place of last/current study,float64,44965,17442,Analytical or derived field; source-data terms still apply
+school_type_last,Type of school/institution last/current attended,float64,44637,17770,Analytical or derived field; source-data terms still apply
+curriculum,Curriculum,float64,44637,17770,Analytical or derived field; source-data terms still apply
+father_education,Father highest class completed,float64,34900,27507,Analytical or derived field; source-data terms still apply
+mother_education,Mother highest class completed,float64,32169,30238,Analytical or derived field; source-data terms still apply
+guardian_education,Guardian highest class completed,float64,0,62407,Analytical or derived field; source-data terms still apply
+edB_TERM,(firstnm) edB_TERM,float64,56538,5869,Analytical or derived field; source-data terms still apply
+edB_S2BQ0A,(firstnm) edB_S2BQ0A,float64,56496,5911,Analytical or derived field; source-data terms still apply
+edB_S2BQ01,(firstnm) edB_S2BQ01,float64,56538,5869,Analytical or derived field; source-data terms still apply
+edB_S2BQ02,(firstnm) edB_S2BQ02,float64,40201,22206,Analytical or derived field; source-data terms still apply
+edB_S2BQ03,(firstnm) edB_S2BQ03,float64,16337,46070,Analytical or derived field; source-data terms still apply
+edB_S2BQ04,(firstnm) edB_S2BQ04,float64,16337,46070,Analytical or derived field; source-data terms still apply
+edB_S2BQ05,(firstnm) edB_S2BQ05,float64,240,62167,Analytical or derived field; source-data terms still apply
+edB_S2BQ06,(firstnm) edB_S2BQ06,float64,3359,59048,Analytical or derived field; source-data terms still apply
+edB_S2BQ07,(firstnm) edB_S2BQ07,float64,16337,46070,Analytical or derived field; source-data terms still apply
+reason_not_attending_school,Reason not currently attending school,float64,40201,22206,Analytical or derived field; source-data terms still apply
+stipend_type,Type of scholarship/stipend,float64,240,62167,Analytical or derived field; source-data terms still apply
+stipend_amount_12m,Scholarship/stipend amount received in last 12 months,float32,3359,59048,Analytical or derived field; source-data terms still apply
+free_study_opportunity,Opportunity to study without pay,float64,16337,46070,Analytical or derived field; source-data terms still apply
+fd_TERM,(firstnm) fd_TERM,int8,62407,0,Analytical or derived field; source-data terms still apply
+fd_S1AQ0B,(firstnm) fd_S1AQ0B,int8,62407,0,Analytical or derived field; source-data terms still apply
+fd_S1AQ16,(firstnm) fd_S1AQ16,int8,62407,0,Analytical or derived field; source-data terms still apply
+fd_S1AQ17,(firstnm) fd_S1AQ17,int8,62407,0,Analytical or derived field; source-data terms still apply
+fd_S1AQ18,(firstnm) fd_S1AQ18,int8,62407,0,Analytical or derived field; source-data terms still apply
+fd_S1AQ19,(firstnm) fd_S1AQ19,int8,62407,0,Analytical or derived field; source-data terms still apply
+fd_S1AQ20,(firstnm) fd_S1AQ20,int8,62407,0,Analytical or derived field; source-data terms still apply
+fd_S1AQ21,(firstnm) fd_S1AQ21,int8,62407,0,Analytical or derived field; source-data terms still apply
+hh_TERM,Interviewer Code,int8,62407,0,Analytical or derived field; source-data terms still apply
+hh_TEAM_ID,Interviewer Code,int8,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_01_CODE,Division Code,int8,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_01_NAME,Division Name,object,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_02_CODE,District Code,int8,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_02_NAME,District Name,object,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_03_CODE,City Corporation Code,int8,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_03_NAME,City Corporation Name,object,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_04_CODE,Thana / Upazilla Code,int8,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_04_NAME,Thana / Upazilla  Name,object,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_05_CODE,Municipality Code,int8,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_05_NAME,Municipality Name,object,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_06_CODE,Union / Ward Code,int16,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_06_NAME,Union / Ward Name,object,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_ID_09_CODE,Rural / PSA / City Corp Code,int8,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_FACILITATOR_CODE,Female Facilitator Code,int16,62407,0,Analytical or derived field; source-data terms still apply
+hh_FACILITATOR_NAME,Female Facilitator Name,object,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_INTERVIEWER_NAME,Interviewer Name,object,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_SUPERVISOR_CODE,Supervising officer code,int16,62407,0,Analytical or derived field; source-data terms still apply
+hh_SUPERVISOR_NAME,Supervising officer name,object,62407,0,Restricted identifier/name/admin field; do not publish row-level values
+hh_MEMBER,Total household member,int8,62407,0,Analytical or derived field; source-data terms still apply
+hh_domain16,Domain,int8,62407,0,Analytical or derived field; source-data terms still apply
+hh_urbrural,RuralUrban,int8,62407,0,Analytical or derived field; source-data terms still apply
+hh_hh_wgt,,float32,62407,0,Analytical or derived field; source-data terms still apply
+hh_pop_wgt,,float32,62407,0,Analytical or derived field; source-data terms still apply
+wt_rmo,Rural / PSA / City Corp Code,int8,62407,0,Analytical or derived field; source-data terms still apply
+wt_stratum16,,int8,62407,0,Analytical or derived field; source-data terms still apply
+wt_domain16,,int8,62407,0,Analytical or derived field; source-data terms still apply
+wt_urbrural,,int8,62407,0,Analytical or derived field; source-data terms still apply
+wt_hh_wgt,,float32,62407,0,Analytical or derived field; source-data terms still apply
+wt_pop_wgt,,float32,62407,0,Analytical or derived field; source-data terms still apply
+earn_annual_total,"Total annual employment earnings, person-level",float64,12305,50102,Analytical or derived field; source-data terms still apply
+earn_annual_hours,"Total annual work hours, person-level",float64,19397,43010,Analytical or derived field; source-data terms still apply
+earn_cash_daily_annual,(sum) cash_daily_annual,float64,12305,50102,Analytical or derived field; source-data terms still apply
+earn_inkind_daily_annual,(sum) inkind_daily_annual,float64,12305,50102,Analytical or derived field; source-data terms still apply
+earn_gross_monthly_annual,(sum) gross_monthly_annual,float64,12305,50102,Analytical or derived field; source-data terms still apply
+earn_net_monthly_annual,(sum) net_monthly_annual,float64,12305,50102,Analytical or derived field; source-data terms still apply
+earn_inkind_other_annual,(sum) inkind_other_annual,float64,12305,50102,Analytical or derived field; source-data terms still apply
+earn_valid_activity_count,Number of activities with non-missing earnings,float64,19398,43009,Analytical or derived field; source-data terms still apply
+earn_valid_hours_count,Number of activities with non-missing hours,float64,19398,43009,Analytical or derived field; source-data terms still apply
+earn_activity_count,Number of activity rows before person-level collapse,float64,19398,43009,Analytical or derived field; source-data terms still apply
+earn_occ_code,Main occupation code,float64,19398,43009,Analytical or derived field; source-data terms still apply
+earn_ind_code,Main industry code,float64,19398,43009,Analytical or derived field; source-data terms still apply
+earn_sector,Main economic sector,float64,19398,43009,Analytical or derived field; source-data terms still apply
+earn_emp_status_ag,"Employment status, agriculture",float64,6018,56389,Analytical or derived field; source-data terms still apply
+earn_emp_status_nonag,"Employment status, non-agriculture",float64,14472,47935,Analytical or derived field; source-data terms still apply
+earn_org_type,Type of organization,float64,6167,56240,Analytical or derived field; source-data terms still apply
+earn_hourly,"Hourly earnings, person-level",float32,12305,50102,Analytical or derived field; source-data terms still apply
+log_earn_hourly,"Log hourly earnings, person-level",float32,12305,50102,Analytical or derived field; source-data terms still apply
+_m_earnings,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+sample_lfp_women_15plus,Sample: women age 15+ with observed broad LFP,int8,62407,0,Analytical or derived field; source-data terms still apply
+sample_lfp_all_15plus,Sample: all age 15+ with observed broad LFP,int8,62407,0,Analytical or derived field; source-data terms still apply
+sample_earnings_15plus,Sample: age 15+ with positive hourly earnings,int8,62407,0,Analytical or derived field; source-data terms still apply
+sample_earnings_women_15plus,Sample: women age 15+ with positive hourly earnings,int8,62407,0,Analytical or derived field; source-data terms still apply
+Q10_1,Q10_1 You were worried you would not have enough food to eat because of lack of ,float64,62309,98,Analytical or derived field; source-data terms still apply
+Q10_2,Q10_2 was there a time when you were  unable to eat healthy and nutritious food,float64,62317,90,Analytical or derived field; source-data terms still apply
+Q10_3,Q10_3 You ate only a few kinds of foods because of a lack of money or other reso,float64,62317,90,Analytical or derived field; source-data terms still apply
+Q10_4,Q10_4 You had to skip a meal because there was not enough money or other resourc,float64,62317,90,Analytical or derived field; source-data terms still apply
+Q10_5,Q10_5 was there a time when you ate less than you thought you should,float64,62317,90,Analytical or derived field; source-data terms still apply
+Q10_6,Q10_6 Your household ran out of food because of a lack of money or other resourc,float64,62317,90,Analytical or derived field; source-data terms still apply
+Q10_7,Q10_7 You were hungry but did not eat because there was not enough money or othe,float64,62317,90,Analytical or derived field; source-data terms still apply
+Q10_8,Q10_8 was there a time when you went without eating f,float64,62317,90,Analytical or derived field; source-data terms still apply
+fies_Q10_1_yes,,float32,62281,126,Analytical or derived field; source-data terms still apply
+fies_Q10_1_dk_refused,,float32,62309,98,Analytical or derived field; source-data terms still apply
+fies_Q10_2_yes,,float32,62219,188,Analytical or derived field; source-data terms still apply
+fies_Q10_2_dk_refused,,float32,62317,90,Analytical or derived field; source-data terms still apply
+fies_Q10_3_yes,,float32,62282,125,Analytical or derived field; source-data terms still apply
+fies_Q10_3_dk_refused,,float32,62317,90,Analytical or derived field; source-data terms still apply
+fies_Q10_4_yes,,float32,62272,135,Analytical or derived field; source-data terms still apply
+fies_Q10_4_dk_refused,,float32,62317,90,Analytical or derived field; source-data terms still apply
+fies_Q10_5_yes,,float32,62155,252,Analytical or derived field; source-data terms still apply
+fies_Q10_5_dk_refused,,float32,62317,90,Analytical or derived field; source-data terms still apply
+fies_Q10_6_yes,,float32,62259,148,Analytical or derived field; source-data terms still apply
+fies_Q10_6_dk_refused,,float32,62317,90,Analytical or derived field; source-data terms still apply
+fies_Q10_7_yes,,float32,62203,204,Analytical or derived field; source-data terms still apply
+fies_Q10_7_dk_refused,,float32,62317,90,Analytical or derived field; source-data terms still apply
+fies_Q10_8_yes,,float32,62247,160,Analytical or derived field; source-data terms still apply
+fies_Q10_8_dk_refused,,float32,62317,90,Analytical or derived field; source-data terms still apply
+fies_valid_items,Number of valid FIES items,float32,62317,90,Analytical or derived field; source-data terms still apply
+fies_raw_score,"Raw FIES score, 0-8, valid only when all 8 items observed",float32,61886,521,Analytical or derived field; source-data terms still apply
+_m_fies,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+h6A_TERM,,float64,62407,0,Analytical or derived field; source-data terms still apply
+h6A_S6AQ01,ID code of the respondent,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ02,How many rooms does your household occupy?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ03,Does your dwelling posses a separate dining room?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ04,What is the construction material of the walls of the main room?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ05,What is the construction material of the roof of the main room?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ06,What is the total usable space/area of covered rooms?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ07,What kind of toilet facility do members of your household usually use?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ08,Does the household share this toilet facility with other households?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ09,What is the main source of drinking water?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ10,Has  your Tubewell been tested for arsenic?,float64,43094,19313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ11,Was arsenic found?,float64,21254,41153,Analytical or derived field; source-data terms still apply
+h6A_S6AQ12,"If Yes, what is the alternative source of drinking water?",float64,859,61548,Analytical or derived field; source-data terms still apply
+h6A_S6AQ13,What is the main source of  water for other use?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ14,"How long does it take to get to your water source, collect water, and return? (M",float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ15,"Where members of your household wash their hands most of the time, Would you ple",float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ16,Do you have any soap or detergent or ash / soil / sand for hand washing in your ,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ17,Would you please show me that?,float64,56491,5916,Analytical or derived field; source-data terms still apply
+h6A_S6AQ18,What is the light source in your house,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ19,How many hours of electricity in a normal 24 hours?,float64,60846,1561,Analytical or derived field; source-data terms still apply
+h6A_S6AQ20,What kind of stove is mainly used for cooking your food?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ21,Is there a chimney in this stove?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ22,Is there a fan in this stove?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ23,What kind of fuel or fuel-energy is used in this stove?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ24,"Is cooking in this room done indoors, or in a separate room or somewhere outside",float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ25,Is this kitchen used by anyone but members of the household?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ26,Does the household have a landline telephone connection?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ27,Does your household own  a computer/laptop/notebook/tablet?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ28,What do you use the house for?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ29,How much would it cost to buy or build the kind of house you live in today?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ30,is this a slum household?,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ31,Is there an all-season usable road / dock within 2 km of your house? (In case of,float64,31394,31013,Analytical or derived field; source-data terms still apply
+h6A_S6AQ32,Are there bus / train / tempo / laguna stops within half a kilometer of your hou,float64,30700,31707,Analytical or derived field; source-data terms still apply
+h6A_S6AQ33,"If so, how long does it take to get to the nearest stop? Minute",float64,27627,34780,Analytical or derived field; source-data terms still apply
+h6A_S6AQ34,Is there any regular collection of waste from government and private enterprises,float64,62094,313,Analytical or derived field; source-data terms still apply
+h6A_S6AQ35,"Does the municipality, city corporation or any other community organization have",float64,62090,317,Analytical or derived field; source-data terms still apply
+h6A_S6AQ36,Do you regularly throw food waste in the dustbin?,float64,62094,313,Analytical or derived field; source-data terms still apply
+_m_housing,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+hh_rooms,Number of rooms occupied by household,float32,62094,313,Analytical or derived field; source-data terms still apply
+wall_material,Main wall material,float32,62094,313,Analytical or derived field; source-data terms still apply
+roof_material,Main roof material,float32,62094,313,Analytical or derived field; source-data terms still apply
+covered_area,Covered room area,float32,62094,313,Analytical or derived field; source-data terms still apply
+toilet_type,Main toilet facility type,float32,62094,313,Analytical or derived field; source-data terms still apply
+shared_toilet,Household shares toilet facility,float32,62094,313,Analytical or derived field; source-data terms still apply
+drinking_water_source,Main drinking water source,float32,62094,313,Analytical or derived field; source-data terms still apply
+other_water_source,Main water source for other use,float32,62094,313,Analytical or derived field; source-data terms still apply
+water_collection_time_min,"Time to collect water and return, minutes",float32,62094,313,Analytical or derived field; source-data terms still apply
+handwashing_place,Usual handwashing place,float32,62094,313,Analytical or derived field; source-data terms still apply
+has_handwashing_material,Has soap/detergent/ash/soil/sand for handwashing,float32,62094,313,Analytical or derived field; source-data terms still apply
+light_source,Main light source in house,float32,62094,313,Analytical or derived field; source-data terms still apply
+electricity_hours_24h,Electricity hours in normal 24 hours,float32,60846,1561,Analytical or derived field; source-data terms still apply
+cooking_stove_type,Main cooking stove type,float32,62094,313,Analytical or derived field; source-data terms still apply
+cooking_fuel,Main cooking fuel or energy,float32,62094,313,Analytical or derived field; source-data terms still apply
+cooking_location,Cooking location,float32,62094,313,Analytical or derived field; source-data terms still apply
+has_landline,Household has landline telephone,float32,62094,313,Analytical or derived field; source-data terms still apply
+has_computer,Household owns computer/laptop/tablet,float32,62094,313,Analytical or derived field; source-data terms still apply
+house_use,Use of house,float32,62094,313,Analytical or derived field; source-data terms still apply
+house_value,Estimated cost to buy/build current house,float32,62094,313,Analytical or derived field; source-data terms still apply
+slum_household,Slum household,float32,62094,313,Analytical or derived field; source-data terms still apply
+all_season_road_2km,All-season usable road/dock within 2 km,float32,31394,31013,Analytical or derived field; source-data terms still apply
+transport_stop_halfkm,Transport stop within half kilometer,float32,30700,31707,Analytical or derived field; source-data terms still apply
+transport_stop_time_min,Minutes to nearest transport stop,float32,27627,34780,Analytical or derived field; source-data terms still apply
+regular_waste_collection,Regular waste collection,float32,62094,313,Analytical or derived field; source-data terms still apply
+asset_TERM,,float64,61810,597,Analytical or derived field; source-data terms still apply
+asset_S8AQ01A,Is there any land or property which your household owns but doesn't operate?,float64,61612,795,Analytical or derived field; source-data terms still apply
+asset_S8AQ01B,Is there any land or property which your household owns but doesn't operate? (Ac,float64,3165,59242,Analytical or derived field; source-data terms still apply
+asset_S8AQ02,How much would it cost to buy land or property owned by your household?,float64,3165,59242,Analytical or derived field; source-data terms still apply
+asset_S8AQ03,Did your household purchase any land or property during the last 12 months?,float64,61623,784,Analytical or derived field; source-data terms still apply
+asset_S8AQ04,How much did your household spend on purchasing this land or property?,float64,1811,60596,Analytical or derived field; source-data terms still apply
+asset_S8AQ05,Did your household purchase any house or flat over the past 12 months?,float64,61623,784,Analytical or derived field; source-data terms still apply
+asset_S8AQ06,How much did your household spend on purchasing  that house or flat?,float64,267,62140,Analytical or derived field; source-data terms still apply
+asset_S8AQ07,"Does your household own any other assets (e.g. stocks, bonds, other financial as",float64,61623,784,Analytical or derived field; source-data terms still apply
+asset_S8AQ08,How much in total are these worth?,float64,31193,31214,Analytical or derived field; source-data terms still apply
+asset_S8AQ09,Did your household purchase any assets other than land over the past 12 months?,float64,61623,784,Analytical or derived field; source-data terms still apply
+asset_S8AQ10,How much did your household spend on purchasing these assets?,float64,1627,60780,Analytical or derived field; source-data terms still apply
+asset_S8AQ11,Did your household sell any assets over the past 12 months?,float64,61623,784,Analytical or derived field; source-data terms still apply
+asset_S8AQ12,How much did your household get from selling these assets?,float64,2112,60295,Analytical or derived field; source-data terms still apply
+_m_assets,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
+owns_land_property_nonoperated,Owns land/property not operated,float32,61612,795,Analytical or derived field; source-data terms still apply
+land_property_value,Estimated value of owned land/property,float32,3165,59242,Analytical or derived field; source-data terms still apply
+purchased_land_12m,Purchased land/property in last 12 months,float32,61623,784,Analytical or derived field; source-data terms still apply
+land_purchase_value_12m,Land/property purchase value in last 12 months,float32,1811,60596,Analytical or derived field; source-data terms still apply
+purchased_house_flat_12m,Purchased house/flat in last 12 months,float32,61623,784,Analytical or derived field; source-data terms still apply
+house_flat_purchase_value_12m,House/flat purchase value in last 12 months,float32,267,62140,Analytical or derived field; source-data terms still apply
+owns_other_assets,Owns other financial/physical assets,float32,61623,784,Analytical or derived field; source-data terms still apply
+other_asset_value,Value of other assets,float32,31193,31214,Analytical or derived field; source-data terms still apply
+purchased_other_assets_12m,Purchased other assets in last 12 months,float32,61623,784,Analytical or derived field; source-data terms still apply
+other_asset_purchase_value_12m,Other asset purchase value in last 12 months,float32,1627,60780,Analytical or derived field; source-data terms still apply
+sold_assets_12m,Sold assets in last 12 months,float32,61623,784,Analytical or derived field; source-data terms still apply
+asset_sale_value_12m,Asset sale value in last 12 months,float32,2112,60295,Analytical or derived field; source-data terms still apply
+sec9a1_food_value,Section 9A1 total food item value,float64,62374,33,Analytical or derived field; source-data terms still apply
+sec9a1_item_count,(sum) sec9a1_item_row,float64,62374,33,Analytical or derived field; source-data terms still apply
+sec9b2_value_total,Section 9B2 total item value,float64,62111,296,Analytical or derived field; source-data terms still apply
+sec9b2_item_count,(sum) sec9b2_item_row,float64,62111,296,Analytical or derived field; source-data terms still apply
+_m_sec9b2,Matching result from merge,float64,62374,33,Analytical or derived field; source-data terms still apply
+sec9c_cash_credit_value,(sum) sec9c_cash_credit_value,float64,61795,612,Analytical or derived field; source-data terms still apply
+sec9c_ownprod_received_value,(sum) sec9c_ownprod_received_value,float64,61795,612,Analytical or derived field; source-data terms still apply
+sec9c_total_value,Section 9C total consumed goods value,float64,61795,612,Analytical or derived field; source-data terms still apply
+sec9c_item_count,(sum) sec9c_item_row,float64,61795,612,Analytical or derived field; source-data terms still apply
+_m_sec9c,Matching result from merge,float64,62384,23,Analytical or derived field; source-data terms still apply
+sec9d1_value_total,Section 9D1 total annual item value,float64,61677,730,Analytical or derived field; source-data terms still apply
+sec9d1_amount_total,(sum) sec9d1_amount,float64,61677,730,Analytical or derived field; source-data terms still apply
+sec9d1_item_count,(sum) sec9d1_item_row,float64,61677,730,Analytical or derived field; source-data terms still apply
+_m_sec9d1,Matching result from merge,float64,62384,23,Analytical or derived field; source-data terms still apply
+sec9d2_value_total,Section 9D2 total annual item value,float64,60768,1639,Analytical or derived field; source-data terms still apply
+sec9d2_amount_total,(sum) sec9d2_amount,float64,60768,1639,Analytical or derived field; source-data terms still apply
+sec9d2_item_count,(sum) sec9d2_item_row,float64,60768,1639,Analytical or derived field; source-data terms still apply
+_m_sec9d2,Matching result from merge,float64,62384,23,Analytical or derived field; source-data terms still apply
+durable_owned_count,Number of durable asset types owned,float64,61848,559,Analytical or derived field; source-data terms still apply
+durable_total_number,Total number of durable items owned,float64,61848,559,Analytical or derived field; source-data terms still apply
+durable_total_value,Total current value of durable assets,float64,61848,559,Analytical or derived field; source-data terms still apply
+durable_item_count,(sum) durable_item_row,float64,61848,559,Analytical or derived field; source-data terms still apply
+_m_sec9e,Matching result from merge,float64,62390,17,Analytical or derived field; source-data terms still apply
+sec9_total_observed_value,Raw combined Section 9 observed value,float32,62384,23,Analytical or derived field; source-data terms still apply
+_m_sec9,Matching result from merge,int8,62407,0,Analytical or derived field; source-data terms still apply
